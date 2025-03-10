@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="header">
+        <nav class="header__menu">
+            <a href="./index.html" class="header__menu__link">Home</a>
+            <a href="./about.html" class="header__menu__link">Sobre mí</a>
+        </nav>
     </header>
-    <main>
-        <h1>Eleve tu negocio digital a otro nivel <strong>con un Front-end de calidad!</strong></h1>
-        <p>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">Eleve tu negocio digital a otro nivel <strong class="titulo-destaque">con un Front-end de calidad!</strong></h1>
+        <p class="presentacion__contenido__texto">
             ¡Hola! Soy Ana García, desarrolladora Front-end con especialización en React, HTML y CSS. Ayudo a pequeños negocios y diseñadores a llevar a cabo buenas ideas. ¿Hablamos?
         </p>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <a href="https://github.com/Mauedy164">github</a>
-        <img src="../multimedia/Imagem.png" alt="Ana García Trabajando">
+        <div class="presentacion__enlaces">
+            <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes</h2>
+            <a class="presentacion__enlaces__link" href="https://www.instagram.com/"><img src="./multimedia/instagram.png" alt="Logo Instagram"> Instagram</a>
+            <a class="presentacion__enlaces__link" href="https://github.com/Mauedy164"><img src="./multimedia/github.png" alt="Logo github"> github</a>
+        </div>
+        </section>
+        <section>
+            <img src="../multimedia/Imagem.png" alt="Ana García Trabajando">
+        </section>
+        
     </main>
-    <footer>
-
+    <footer class="footer">
+        <p>Desarrollado por Eduardo Hernández</p>
     </footer>
 </body>
 </html>
